@@ -62,7 +62,7 @@ const DFX_PORT = dfxJson.networks.local.bind.split(":")[1];
 console.log("canisterDefinitions", canisterDefinitions);
 console.log("aliases", aliases);
 const config = {
-  // mode: "development",
+  mode: "development",
   packageOptions: {
     polyfillNode: true,
     rollup: {
@@ -88,6 +88,9 @@ const config = {
       },
     },
   ],
+  buildOptions: {
+    out: "dist",
+  },
 };
 
 console.log("config", JSON.stringify(config, undefined, 2));
