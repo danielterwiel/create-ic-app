@@ -1,0 +1,33 @@
+{
+  "name": "my-ic-app",
+  "version": "0.0.0",
+  "author": {
+    "name": "Daniël Terwiel"
+  },
+  "scripts": {
+    "start": "astro dev",
+    "build": "astro build",
+    "watch": "ic-dfx-watch"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^13.0.4",
+    "@snowpack/plugin-sass": "^1.4.0",
+    "@types/node": "^16.9.1",
+    "astro": "^0.20.5",
+    "buffer": "^6.0.3",
+    "iso-url": "1.1.4",
+    "http2-proxy": "^5.0.53",
+    "ic-dfx-utils": "^0.0.14",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "snowpack-resolve-alias": "^1.2.8"
+  },
+  "dependencies": {
+    "@dfinity/agent": "0.10.0",
+    "@dfinity/auth-client": "^0.10.0",
+    "@dfinity/authentication": "0.10.0",
+    "@dfinity/principal": "^0.10.0"
+  },
+  "browser": {
+    "crypto": false
+  }
+}
