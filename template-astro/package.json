@@ -14,10 +14,8 @@
     "@snowpack/plugin-sass": "^1.4.0",
     "@types/node": "^16.9.1",
     "astro": "^0.20.5",
-    "buffer": "^6.0.3",
     "iso-url": "1.1.4",
     "http2-proxy": "^5.0.53",
-    "ic-dfx-utils": "^0.0.14",
     "rollup-plugin-node-polyfills": "^0.2.1",
     "snowpack-resolve-alias": "^1.2.8"
   },
@@ -25,7 +23,8 @@
     "@dfinity/agent": "0.10.0",
     "@dfinity/auth-client": "^0.10.0",
     "@dfinity/authentication": "0.10.0",
-    "@dfinity/principal": "^0.10.0"
+    "@dfinity/principal": "^0.10.0",
+    "buffer": "^6.0.3"
   },
   "browser": {
     "crypto": false

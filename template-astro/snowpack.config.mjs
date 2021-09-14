@@ -92,4 +92,6 @@ const config = {
 
 console.log("config", JSON.stringify(config, undefined, 2));
 
+logger.debug("bla");
+
 export default config;
